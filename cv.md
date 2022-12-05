@@ -10,3 +10,17 @@ I like to learn something new and apply the acquired knowledge in practice. I en
 * Compas - 3d
 * JavaScript(elementary)
 * Git
+## Code examples
+```
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  const distantSurvive = distanceToPump;
+  const distantGo = mpg * fuelLeft;
+  return distantSurvive <= distantGo ? true : false;
+};
+```
+## Education
+* Belarusian National Tecnical Univercity
+  * Technical operation of cars
+* Courses
+  * [The Rolling Scopes School](https://app.rs.school/) 
+      * JS/FE Pre-School (in the process) 
