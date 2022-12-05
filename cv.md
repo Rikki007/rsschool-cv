@@ -26,4 +26,5 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
       * JS/FE Pre-School (in the process)
 ## Languages
 * Russian - native speaker.
-* English - A1.      
+* English - A1.   
+* Czech - A1(I had been practicing Czech, when i worked in Czech Republic).  
