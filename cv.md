@@ -23,4 +23,7 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   * Technical operation of cars
 * Courses
   * [The Rolling Scopes School](https://app.rs.school/) 
-      * JS/FE Pre-School (in the process) 
+      * JS/FE Pre-School (in the process)
+## Languages
+* Russian - native speaker.
+* English - A1.      
