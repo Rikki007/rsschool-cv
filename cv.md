@@ -2,7 +2,7 @@
 
 ---
 
-## Junior frontend developer [![link](./pic/link.png)](https://github.com/Rikki007)
+## Junior frontend developer
 
 ---
 
@@ -54,4 +54,4 @@ const hello = () => {
 
 - **Rassian** - native.
 - **Belorussian** - intermediate.
-- **English - pre** - intermediate.
+- **English** - preintermediate.
