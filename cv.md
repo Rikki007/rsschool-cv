@@ -17,20 +17,11 @@
 
 ---
 
-## About me
-
-I like to get pleasure from solving some intellectual tasks. The release of dopamine gives me the strength to solve new tasks. it's like a snowball. Front-end development is able to provide me with feasible solutions and satisfy my dopamine hunger.
-
----
-
 ## Skills
 
 - **HTML**
 - **CSS**
 - **JavaScript basics**
-- **Visual Studio code**
-- **GitHub**
-- **Compas3D**
 
 ---
 
@@ -47,6 +38,8 @@ const hello = () => {
 ## Courses
 
 - RS Schools Course «JavaScript/Front-end. Stage 0»
+- RS Schools Course «JavaScript/Front-end. Stage 1»
+- RS Schools Course «JavaScript/Front-end. Stage 2» - processing.
 
 ---
 
