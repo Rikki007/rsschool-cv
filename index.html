@@ -1,9 +1,129 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./pic/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
     <title>cv</title>
   </head>
-  <body></body>
-</html> -->
+  <body>
+    <header class="header">
+      <section class="header-wrapper">
+        <a href="https://Rikki007.github.io/rsschool-cv/cv" class="logo">
+          <img src="./pic/cvIcon32.png" alt="icon" class="logo__img">
+          <h1 class="logo__title">CV</h1>
+        </a>
+        <nav class="navbar">
+          <ul class="navlist">
+            <li class="navlist__item"><a href="#contact" class="navlink">Contact information</a></li>
+            <li class="navlist__item"><a href="#skills" class="navlink">Skills</a></li>
+            <li class="navlist__item"><a href="#code" class="navlink">Code example</a></li>
+            <li class="navlist__item"><a href="#projects" class="navlink">Projects</a></li>
+            <li class="navlist__item"><a href="#courses" class="navlink">Courses</a></li>
+            <li class="navlist__item"><a href="#languages" class="navlink">Languages</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="main">
+      <article class="main-wrapper">
+        <section class="contacts" id="contact">
+          <div class="main-info">
+            <h2 class="main-info__title">Contacts</h2>
+            <div class="mail-box box">
+              <img src="./pic/mailIcon.png" alt="pic" class="box__img">
+              <p class="box__description">oreshaodnoglazy@gmail.com</p>
+            </div>
+            <div class="phone-box box">
+              <img src="./pic/phoneIcon.png" alt="pic" class="box__img">
+              <p class="box__description">(29)895-20-37</p>
+            </div>
+          </div>
+          <div class="self-intro">
+            <img src="./pic/mypic.jpg" alt="pic" class="self-intro__pic">
+            <h3 class="self-intro__name">Kirill Oreshkevich</h3>
+            <h3 class="self-intro__profession">Junior Frontend Developer</h3>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <div class="skill-box">
+            <img src="./pic/html.png" alt="pic" class="skill-box__img">
+            <p class="skill-box__description">HTML</p>
+          </div>
+          <div class="skill-box">
+            <img src="./pic/css.png" alt="pic" class="skill-box__img">
+            <p class="skill-box__description">CSS</p>
+          </div>
+          <div class="skill-box">
+            <img src="./pic/sass.png" alt="pic" class="skill-box__img">
+            <p class="skill-box__description">SASS</p>
+          </div>
+          <div class="skill-box">
+            <img src="./pic/js.png" alt="pic" class="skill-box__img">
+            <p class="skill-box__description">JS</p>
+          </div>
+        </section>
+        <section class="code" id="code">
+          <h2 class="code__title">Code example</h2>
+          <ul class="themes-list">
+            <li class="themes__item themes__item_active">number</li>
+            <li class="themes__item">string</li>
+            <li class="themes__item">array</li>
+            <li class="themes__item">object</li>
+            <li class="themes__item">class</li>
+          </ul>
+          <div class="show-board">
+            
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="projects__title">Projects</h2>
+          <p class="projects__description">All projects are educational and were carried out while completing a course on training front-end developers in Rolling Scopes School</p>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFEPRESCHOOL2023Q2/library/" class="projects__project">library app</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFEPRESCHOOL2023Q2/random-game/" class="projects__project">2048-Game</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFEPRESCHOOL2023Q2/image-galery/" class="projects__project">image-galery app</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFEPRESCHOOL2023Q2/audio-player/" class="projects__project">audio player</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFE2023Q4/coffee-house/" class="projects__project">Coffee house app</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFE2023Q4/hangman/" class="projects__project">Hangman game</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+          <div class="project-box">
+            <a href="https://rolling-scopes-school.github.io/rikki007-JSFE2023Q4/nonograms/" class="projects__project">Nonograms game</a>
+            <img src="./pic/link.png" alt="pic" class="project-box__link">
+          </div>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section__title">Courses</h2>
+          <p class="section__item">RS Schools Course «JavaScript/Front-end. Stage 0»</p>
+          <p class="section__item">RS Schools Course «JavaScript/Front-end. Stage 1»</p>
+          <p class="section__item">RS Schools Course «JavaScript/Front-end. Stage 2» - in process</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section__title">Languages</h2>
+          <p class="section__item">Russian - native speaker</p>
+          <p class="section__item">English - A2</p>
+        </section>
+      </article>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
