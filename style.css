@@ -1,0 +1,258 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto';
+  overflow-x: hidden;
+  margin: 0;
+  background-color: rgba(226, 198, 166, 0.349);
+}
+
+.header {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(180, 218, 148, 0.692);
+  padding: 1.5rem;
+}
+
+.header-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+
+.logo:hover {
+  text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.logo__title {
+  margin: 0;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navlist__item {
+  list-style-type: none;
+  transition: all 0.3s;
+}
+
+.navlist__item:hover {
+  text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.main-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.box {
+  display: flex;
+  gap: 1rem;
+}
+
+.box__img {
+  width: 1.15rem;
+}
+
+.box__description {
+  margin: 0;
+}
+
+.self-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.self-intro__pic {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.self-intro__name {
+  margin: 0;
+}
+
+.self-intro__profession {
+  margin: 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.skill-box {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.skill-box__description {
+  margin: 0;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.themes-list {
+  list-style-type: none;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.themes__item {
+  padding: 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgb(201, 198, 198);
+  transition: all 0.3s;
+}
+
+.themes__item:hover {
+  scale: 1.1;
+  background-color: rgb(131, 128, 128);
+}
+
+.themes__item_active {
+  scale: 1.1;
+  background-color: rgb(131, 128, 128);
+}
+
+.show-board {
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.project-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.projects__project {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s;
+}
+
+.projects__project:hover {
+  text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 0.1em blue, 0 0 0.2em blue;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+
+  .themes__item {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo:hover {
+    text-shadow: none;
+  }
+
+  .self-intro__pic {
+    width: 100%;
+  }
+
+  .contacts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .themes-list {
+    width: 100%;
+    gap: 0.2rem;
+    padding: 0;
+  }
+
+  .themes__item {
+    padding: 0.2rem;
+  }
+
+  .themes__item:hover {
+    scale: 1;
+    background-color: rgb(201, 198, 198);
+  }
+
+  .show-board__image {
+    width: 100%;
+  }
+
+  .projects__project:hover {
+    text-shadow: none;
+  }
+}
